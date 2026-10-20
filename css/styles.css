@@ -270,7 +270,7 @@ textarea:focus {
 @media (max-width: 600px) {
     .top-container {
         min-height: 0;
-        padding: 5.5rem 1rem 0;
+        padding: 4rem 1rem 0;
     }
 
     .top-cloud {
@@ -280,20 +280,20 @@ textarea:focus {
     }
 
     .bottom-cloud {
-        top: 48%;
+        top: 43%;
         left: 5%;
-        width: 105px;
+        width: 95px;
     }
 
     .tagline {
-        margin-top: 3.25rem;
+        margin-top: 1.75rem;
     }
 
     .mountain {
         width: calc(100% + 2rem);
         max-width: none;
-        margin-top: 2rem;
-        padding-top: 1.5rem;
+        margin-top: 0.75rem;
+        padding-top: 0.5rem;
     }
 
     .middle-container {
@@ -337,7 +337,7 @@ textarea:focus {
 
 @media (max-width: 380px) {
     .top-container {
-        padding-top: 5rem;
+        padding-top: 3.5rem;
     }
 
     .top-cloud,
@@ -346,7 +346,7 @@ textarea:focus {
     }
 
     .tagline {
-        margin-top: 2.5rem;
+        margin-top: 1.25rem;
     }
 
     .skill-image {
