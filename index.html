@@ -3,68 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#E4F9F5">
     <title>Bidmorz</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicons/favicon!!.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
-
 </head>
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="images/cloud!.png" alt="cloud">
+    <header class="top-container">
+        <img class="top-cloud" src="images/cloud!.png" alt="" aria-hidden="true">
         <h1>I'm Bidmorz</h1>
-        <p><h2>a <span class="uiux">ui/ux</span> designer</h2></p>
-        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
-        <img class="mountain" src="images/mountain.png" alt="logo">
-    </div>
-<div class="middle-container">
-  <div class="profile">
-    <img class="gecko" src="images/Gecko!.png" alt="logo">
-    <h2>Hello.</h2>
-    <p class="intro">I am a UI/UX Designer and App Builder. The founder and CTO of BidmorzMealPlannerApp. I love Love.</p>
-  </div>
-  <hr>
-  <div class="skills">
-    <h2>My Skills.</h2>
-    <div class="skill-row">
-      <img class="ui" src="images/UI.jpg" alt="skills">
-      <h3>UI/UX Design</h3>
-      <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-    </div>
-    <div class="skill-row">
-      <img class="hay" src="images/hay.png" alt="">
-      <h3>App Development</h3>
-      <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-    </div>
-    <div class="skill-row">
-      <img class="logo" src="images/logo.png" alt="">
-      <h3>Graphics Design</h3>
-      <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-    </div>
-  </div>
-  <hr>
-    <div class="textarea".
-        <h3>Paste lines in the field below. Press <i>Submit</i></h3>
-        <textarea name="masterlist" id="masterlist" autofocus="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
-    </div>
-  <hr>
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-    <p class="git">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-    <a class="btn" href="mailto:bidmorz500"gmail.com">CONTACT ME</a>
-  </div>
-</div>
+        <h2 class="tagline">a <span class="uiux">ui/ux</span> designer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="" aria-hidden="true">
+        <img class="mountain" src="images/mountain.png" alt="Illustration of mountains">
+    </header>
 
+    <main class="middle-container">
+        <section class="profile" aria-labelledby="hello-heading">
+            <img class="gecko" src="images/Gecko!.png" alt="Gecko character portrait">
+            <h2 id="hello-heading">Hello.</h2>
+            <p class="intro">I am a UI/UX Designer and App Builder. The founder and CTO of BidmorzMealPlannerApp. I love Love.</p>
+        </section>
 
-<div class="bottom-container">
-  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-  <a class="footer-link" href="https://twitter.com/">Twitter</a>
-  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-  <p class="dev">© 2026 Dev Bidmorz.</p>
-</div>
+        <hr>
 
+        <section class="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">My Skills.</h2>
+            <div class="skill-row">
+                <img class="skill-image ui" src="images/UI.jpg" alt="">
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+            </div>
+            <div class="skill-row">
+                <img class="skill-image hay" src="images/hay.png" alt="">
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+            </div>
+            <div class="skill-row">
+                <img class="skill-image logo" src="images/logo.png" alt="">
+                <h3>Graphics Design</h3>
+                <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="paste-section" aria-labelledby="paste-heading">
+            <h3 id="paste-heading">Paste lines in the field below. Press <i>Submit</i></h3>
+            <textarea name="masterlist" id="masterlist" aria-label="Paste lines here" placeholder="Paste lines here..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+        </section>
+
+        <hr>
+
+        <section class="contact-me" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Get In Touch</h2>
+            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+            <p class="git">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+            <a class="btn" href="mailto:bidmorz500@gmail.com">CONTACT ME</a>
+        </section>
+    </main>
+
+    <footer class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="dev">© 2026 Dev Bidmorz.</p>
+    </footer>
+
+    <script>
+        // Prevent the browser from restoring a previous scroll position on reload.
+        if ("scrollRestoration" in history) {
+            history.scrollRestoration = "manual";
+        }
+        window.addEventListener("pageshow", function () {
+            if (!window.location.hash) {
+                window.scrollTo(0, 0);
+            }
+        });
+    </script>
 </body>
 </html>
-
-<span></span>
